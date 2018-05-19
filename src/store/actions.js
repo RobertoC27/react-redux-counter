@@ -12,7 +12,7 @@ const ADD = (factor) => ({ type: actionNames.ADD, payload: {factor}});
 
 const SUBTRACT = (factor) => ({type: actionNames.SUBTRACT, payload: {factor}});
 
-const STORE_RESULT = (id) => ({type: actionNames.STORE_RESULT, payload: {id}});
+const STORE_RESULT = (id, value) => ({type: actionNames.STORE_RESULT, payload: {id, value}});
 
 const DELETE_RESULT = (id) => ({type: actionNames.DELETE_RESULT, payload: {id}});
 
